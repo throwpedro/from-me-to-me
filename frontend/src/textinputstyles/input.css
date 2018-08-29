@@ -1,0 +1,22 @@
+.input-wrapper {
+    width: 310px;
+    height: 400px;
+    background-color: darkgray;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 768px) {
+    .input-wrapper {
+        width: 750px;
+        height: 800px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .input-wrapper {
+        width: 700px;
+        height: 800px;
+        margin-left: 50px;
+        border-radius: 50px;
+    }
+}
